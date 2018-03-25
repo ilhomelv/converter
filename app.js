@@ -24,7 +24,7 @@ function showSelectedConverter(e){
   }
 }
 
-//Select Weight between Gramm/Oz Kg/Lb
+//Select Weight between Gramm/Oz Kg/Lb  
 var weightSel = document.getElementById("convertWeightContainerSelect");
 var weightInput = document.getElementById("weightInputContainer");
 var iWeight = document.getElementById("inputWeight");
