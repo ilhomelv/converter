@@ -1,0 +1,60 @@
+/*  MAIN CONTAINER   */
+#mainContainer{
+  width: 160px;
+  margin: left;
+  border: 1px solid #ddd;
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.05);
+  border-radius: 4px;
+}
+
+.header{
+  padding: 5px 5px 5px 5px;
+
+}
+
+#chooseUnitContainer{
+  padding: 5px 5px 5px 5px;
+
+
+}
+
+/*  WEIGHT CONTAINER  */
+#convertWeightContainer{
+  display: none;
+  padding: 0px 5px 5px 5px;
+
+}
+
+#weightInputContainer{
+  display: none;
+  padding: 5px 0px 5px 0px;
+  overflow: hidden;
+
+}
+
+#outputW{
+  padding: 5px 5px 5px 0px;
+}
+
+
+
+/*  LENGTH CONTAINER  */
+#convertLengthContainer{
+  display: none;
+  padding: 0px 5px 5px 5px;
+
+}
+
+
+
+#lengthInputContainer{
+  display: none;
+  padding: 5px 0px 5px 0px;
+  overflow: hidden;
+
+}
+
+
+#outputL{
+  padding: 5px 5px 5px 0px;
+}

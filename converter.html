@@ -1,0 +1,40 @@
+<link href="style.css" rel="stylesheet">
+
+<div id="mainContainer">
+        <div class="header">Unit Converter</div>
+        <div id="chooseUnitContainer">
+              <select id="chooseUnitContainerSelect">
+                <option id="none" selected>Select -----
+                <option id="weight">Weight
+                <option id="length">Length
+              </select>
+        </div>
+        <div id="convertWeightContainer">
+            <select id="convertWeightContainerSelect">
+              <option id="noneW" selected>Select ----
+              <option id="grToOz">Gramm to Ounces
+              <option id="ozToGr">Ounces to Gramm
+              <option id="kgToLb">Kilogramm to Pounds
+              <option id="lbToKg">Pounds to Kilogramm
+            </select>
+            <div id="weightInputContainer">
+              <input id="inputWeight" placeholder="enter Weight"><!--user input here--><br>
+              <div id="outputW"><!--output printed here --></div>
+            </div>
+        </div>
+        <div id="convertLengthContainer">
+            <select id="convertLengthContainerSelect">
+              <option id="noneL" selected>Select ----
+              <option id="cmToInc">centimeters to inches
+              <option id="incToCm">inches to centimeters
+              <option id="mtToFt">meter to feet
+              <option id="ftToMt">feet to meter
+            </select>
+            <div id="lengthInputContainer">
+                <input id="inputLength"  placeholder="enter Length"><!--user input here--><br>
+                <div id="outputL"><!--output printed here --></div>
+            </div>
+        </div>
+</div>
+
+<script src="app.js"></script>
