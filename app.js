@@ -20,7 +20,7 @@ function showSelectedConverter(e){
       lengthCvt.style.display = "none";
     }
   else {
-      //catch  error
+      //catch   error
   }
 }
 
